@@ -1,6 +1,6 @@
 {
   "name": "puppetlabs-mount_providers",
-  "version": "nasuni/6.15.0",
+  "version": "nasuni/7.21.0",
   "author": "Puppet Labs",
   "summary": "Provides the mounttab and mountpoint resource types.",
   "license": "Apache-2.0",
@@ -61,7 +61,10 @@
       "operatingsystem": "Ubuntu",
       "operatingsystemrelease": [
         "14.04",
-        "16.04"
+        "16.04",
+        "18.04",
+        "20.04",
+        "22.04"
       ]
     },
     {
@@ -75,7 +78,7 @@
   "requirements": [
     {
       "name": "puppet",
-      "version_requirement": ">= 5.0.0 < 7.0.0"
+      "version_requirement": ">= 5.0.0 <= 7.0.0"
     }
   ]
 }
