@@ -1,6 +1,6 @@
 {
   "name": "puppetlabs-mount_providers",
-  "version": "nasuni/7.21.0",
+  "version": "7.22.0",
   "author": "Puppet Labs",
   "summary": "Provides the mounttab and mountpoint resource types.",
   "license": "Apache-2.0",
